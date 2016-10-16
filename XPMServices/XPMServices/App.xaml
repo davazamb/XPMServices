@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="XPMServices.App"
+             xmlns:infra="clr-namespace:XPMServices.Infrastructure;assembly=XPMServices">    
+  <Application.Resources>
+    <ResourceDictionary>
+          <!-- General colors -->      
+      <Color x:Key="MainColor">#17607d</Color>
+      <Color x:Key="FontColor">#002a4a</Color>
+      <Color x:Key="AccentColor1">#ff9311</Color>
+      <Color x:Key="AccentColor2">#d64700</Color>
+      <Color x:Key="BackgroundColor">#fff1ce</Color>
+          <!-- Menu colors -->
+      <Color x:Key="MenuColor">#002a4a</Color>
+      <Color x:Key="MenuFontColor">#fff1ce</Color>
+      <!-- Locator -->
+      <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+      <!-- Fonts -->
+      <!--<OnPlatform x:Key="GeneralButtonFont" x:TypeArguments="Font" iOS="12" Android="14" WinPhone="16"/>-->
+      <!-- Styles -->  
+      <!--<Style TargetType="Button">
+        <Setter Property="Font" Value="{StaticResource GeneralButtonFont}"/>
+        <Setter Property="BorderRadius" Value="20"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource FontColor}"/>
+        <Setter Property="TextColor" Value="{StaticResource BackgroundColor}"/>
+      </Style>-->
+          </ResourceDictionary>
+  </Application.Resources>
+</Application>
